@@ -63,15 +63,6 @@ function Main(props) {
 	 <div className={styles.container}>
 	    <h1>CHART</h1>
 	    <Chart data={data}/>
-	    {posts?.map((post, index) => {
-		  return (
-			<div key={index}>
-			   <p>TITLE:{post.title}</p>
-			   <p>DATE:{toDateTime(`${post.createdAt}`)}</p>
-			   <p>--------------</p>
-			</div>
-		  )
-	    })}
 	 </div>
    )
 }
