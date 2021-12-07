@@ -46,8 +46,8 @@ function Main(props) {
 	 getPosts(100)
    }, [])
 
-   // const labels = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
-   const labels = stats.map((stat) => stat.month)
+   const labels = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+   // const labels = stats.map((stat) => stat.month)
 
    const data = {
 	 labels,
