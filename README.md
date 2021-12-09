@@ -41,7 +41,19 @@ The problems where based on the syntax, because I could not use the syntax I nee
 I started cleaning up the project deleting all the unnecessary components and lines of code.
 
 - setupTests.ts
--  <span style='color:blue'>BLUE</span>
+
+```diff
+- setupTests.ts
+- reportWebVitals.ts
+- logo.svg
+- index.css
+- App.test.tsx
+- robots.txt
+- manifest.json
+- public/logo512.png
+- public/logo192.png
+- public/favicon.ico 
+```
 
 
 
