@@ -129,3 +129,20 @@ function App() {
 
 Where data is an array with 12 numbers, each number represents the number of posts created in that month.
 
+9. *stats*  is an array which is updating using useState after I fetched all the data from graphQL using the query.
+
+```typescript
+props.client.query({query: LOAD_POSTS(count)}).then((result: any) => {........} setStats(Object.keys(stats).map((key) => {...........}
+```
+
+and then I just sort the array just to get each number aligned with the months in lables array.
+
+```typescript
+sort((a,b) => a.monthNumber - b.monthNumber))
+```
+
+
+
+And that’s it! 
+
+Thank you Goosfraba for this opportunity. It was really helpful and fun ! 
