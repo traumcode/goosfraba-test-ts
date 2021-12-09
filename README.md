@@ -22,6 +22,31 @@ And then go to *http://localhost:3000*
 
 ## Technologies used:
 
+- **GraphQL** - for data query and manipulation
+- **Apollo Client** - for managing the data from GraphQL
+- **Chart.js** - for the data visualization
+
+
+
+This is a simple app that I had to finish for Goosfraba after the interview I had with them.
+
+At first I tried to write this project in JavaScript and use the chart from Airbnb, namely visx butt because this was the first time I was working with a chart in Javascript, visx seemed a bit difficult so I decided to use chart.js. Along the way I encountered some problems that made me start a new project in TypeScript.
+
+The problems where based on the syntax, because I could not use the syntax I needed to  write the chart in JavaScript, only in TypeScript 
+
+
+
+## Steps taken
+
+I started cleaning up the project deleting all the unnecessary components and lines of code.
+
+- setupTests.ts
+-  `<span style='color:blue'>BLUE</span>`
+
+
+
+
+
 
 
 
