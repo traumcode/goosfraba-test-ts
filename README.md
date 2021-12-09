@@ -41,7 +41,7 @@ The problems where based on the syntax, because I could not use the syntax I nee
 I started cleaning up the project deleting all the unnecessary components and lines of code.
 
 - setupTests.ts
--  `<span style='color:blue'>BLUE</span>`
+-  <span style='color:blue'>BLUE</span>
 
 
 
