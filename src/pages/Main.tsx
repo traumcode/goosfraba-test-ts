@@ -4,14 +4,13 @@ import {LOAD_POSTS} from '../graphQL/Queries';
 import {Chart} from '../chart/Chart'
 
 function Main(props) {
-   const [posts, setPosts] = useState([]);
    const [stats, setStats] = useState([]);
 
 
    function getPosts(count: any) {
 	 props.client.query({query: LOAD_POSTS(count)}).then((result: any) => {
 	    let stats = {};
-	    const post = result.data.allPosts.map((post) => {
+	    result.data.allPosts.map((post) => {
 		  let result = {...post, t:new Date(+post.createdAt)}
 		  result.month = result.t.toLocaleString('default', { month: 'long' });
 		  result.monthNumber = result.t.getMonth();
@@ -36,11 +35,6 @@ function Main(props) {
 	 }).catch((error) => console.log(JSON.stringify(error, null, 2)))
    }
 
-   function toDateTime(secs) {
-	 let d = new Date(secs * 1)
-	 console.log(d.getMonth())
-	 return d.getUTCMonth();
-   }
 
    useEffect(() => {
 	 getPosts(100)
