@@ -38,9 +38,7 @@ The problems where based on the syntax, because I could not use the syntax I nee
 
 ## Steps taken
 
-I started cleaning up the project deleting all the unnecessary components and lines of code.
-
-- setupTests.ts
+1. I started cleaning up the project deleting all the unnecessary components and lines of code.
 
 ```diff
 - setupTests.ts
@@ -54,6 +52,10 @@ I started cleaning up the project deleting all the unnecessary components and li
 - public/logo192.png
 - public/favicon.ico 
 ```
+
+2. I installed all the dependencies I need in order to start writing the project.
+
+
 
 
 
